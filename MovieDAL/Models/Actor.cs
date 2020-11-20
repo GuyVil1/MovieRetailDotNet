@@ -12,21 +12,30 @@ namespace DAL.Models
         public string LastName { get; set; }
         public string FirstName { get; set; }
 
-        public Actor(string lastName, string firstName)
-        {
-            LastName = lastName;
-            FirstName = firstName;
-        }
+        public string Email { get; set; }
 
-        public Actor(int id, string lastName, string firstName) : this (lastName, firstName)
-        {
-            Id = id;
+        public string Passwd { get; set; }
 
-        }
+
 
         public Actor()
         {
 
         }
+
+        public Actor(string lastName, string firstName, string email, string passwd)
+        {
+            LastName = lastName;
+            FirstName = firstName;
+            Email = email;
+            Passwd = passwd;
+        }
+
+        public Actor(int id, string lastName, string firstName, string email, string passwd) : this(lastName, firstName, email, passwd)
+        {
+            Id = id;
+
+        }
+
     }
 }

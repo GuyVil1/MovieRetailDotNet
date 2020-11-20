@@ -8,7 +8,7 @@ namespace DAL.Service
     public abstract class ServiceBase<TKey, TEntity> : IService<TKey, TEntity>
         where TEntity : IEntity<TKey>
     {
-        protected Connection connection;
+        protected Connection connection { get; set; }
 
         public ServiceBase()
         {
