@@ -1,15 +1,32 @@
-﻿using DAL.Models;
+﻿using ADOLibrary;
+using DAL.Models;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Data.SqlClient;
+
+
 
 namespace DAL.Service
 {
     public class ActorService : ServiceBase<int, Actor>
     {
+
+        private Actor Converter(SqlDataReader reader)
+        {
+            return new Actor(
+                (int)reader["Id"],
+                reader["Name"].ToString()
+                );
+
+        }
         public override bool Delete(int key)
         {
-            throw new NotImplementedException();
+            Command cmd = new Command("DeleteActor", true);
+            cmd.AddParameter("Id", key);
+
+            return connection.ExecuteNonQuery(cmd) == 1;
+            
+
         }
 
         public override IEnumerable<Actor> GetAll()

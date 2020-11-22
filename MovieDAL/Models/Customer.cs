@@ -6,14 +6,17 @@ namespace DAL.Models
 {
     public class Customer : IEntity<int>
     {
-        public Customer(string lastName, string firstName, string email)
+        public Customer(string lastName, string firstName, string email, string passwd)
         {
             LastName = lastName;
             FirstName = firstName;
             Email = email;
+            Passwd = passwd;
+
+
         }
 
-        public Customer(int id, string lastName, string firstName, string email) : this(lastName, firstName, email)
+        public Customer(int id, string lastName, string firstName, string email, string passwd) : this(lastName, firstName, email, passwd)
         {
             Id = id;
         }
