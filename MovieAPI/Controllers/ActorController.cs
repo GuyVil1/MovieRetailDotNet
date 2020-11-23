@@ -14,48 +14,32 @@ namespace MovieAPI.Controllers
     {
         private ActorService _service;
 
-        public ActorController()
-        {
-
+        [HttpGet]
+        public IActionResult getAll() {
+            return Ok(_service.GetAll());
         }
-
-        public ActorController(ActorService service)
+        [HttpGet("{id:int}")]
+        public IActionResult getById(int id) {
+            return Ok(_service.GetById(id));
+        }
+        [HttpGet]
+        [Route("title")]
+        public IActionResult getByFilm(string title) {
+            return Ok(_service.GetByFilm(title));
+        }
+        [HttpGet]
+        [Route("initial")]
+        public IActionResult getActorByInitial(string initial) {
+            return Ok(_service.GetByInitial(initial[0], initial[1]));
+        }
+        [HttpGet]
+        [Route("AllInitials")]
+        public IActionResult getAllByInitial() {
+            return Ok(_service.GetAllInitials());
+        }
+        public ActorController()
         {
             _service = new ActorService();
         }
-
-        [HttpGet]
-        public IActionResult getAll()
-        {
-            return Ok(_service.GetAll());
-        }
-
-        [HttpGet("{id:int}")]
-        public IActionResult getById(int id)
-        {
-            return Ok(_service.GetById(id));
-        }
-
-        [HttpGet]
-        [Route("title")]
-        public IActionResult getByFilm(string title)
-        {
-            return Ok(_service.GetByFilm(title));
-        }
-
-        [HttpGet]
-        [Route("AllInitial")]
-        public IActionResult GetActorByInitial(string initial)
-        {
-            return Ok(_service.GetByInitial(initial[0], initial[1]));
-        }
-
-
-        public IActionResult GetAllByInitial()
-        {
-            return Ok(_service.GetAllInitials());
-
-        }
-
     }
 }
