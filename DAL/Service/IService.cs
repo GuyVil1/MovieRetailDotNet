@@ -6,7 +6,7 @@ using System.Text;
 namespace DAL.Service
 {
     interface IService<Tkey, TEntity>
-             where TEntity : IEntity<Tkey>
+         where TEntity: IEntity<Tkey>
     {
         // Create
         Tkey Insert(TEntity entity);

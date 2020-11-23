@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WCulVG4wCSk7nJJOfLBsOYpddyGUnb2XT41QcEGhSSb1EtYV1qbLjjkHxZqVLCMAaQ+X7Ew4SPlDYnwfnl9QDA==",
+  "dgSpecHash": "OxsB7Fevc/Ze9CaCotx2s4jyojotxyDYOb6h7AiHbKUkKgYFziFC9UCTzl2A+A2cTE/P3+HDH7U2JCpaBBZaRA==",
   "success": true,
-  "projectFilePath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DotNetLabo\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\voxun\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\voxun\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

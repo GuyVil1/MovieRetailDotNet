@@ -7,7 +7,7 @@ using System.Text;
 namespace DAL.Service
 {
     public abstract class ServiceBase<Tkey, TEntity> : IService<Tkey, TEntity>
-            where TEntity : IEntity<Tkey>
+        where TEntity : IEntity<Tkey>
     {
         protected Connection Connection { get; private set; }
 
@@ -19,7 +19,7 @@ namespace DAL.Service
 
         public ServiceBase()
         {
-            Connection = new Connection(@"Data Source=DESKTOP-E4AAE6V;Initial Catalog=MovieRental;Integrated Security=True;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            Connection = new Connection(@"Data Source=DESKTOP-AUP78JP;Initial Catalog=MovieRental;Integrated Security=True");
         }
     }
 }

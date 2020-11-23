@@ -10,8 +10,7 @@ namespace DAL.Service
 {
     public class ActorService : ServiceBase<int, Actor>
     {
-        private Actor Converter(SqlDataReader reader)
-        {
+        private Actor Converter(SqlDataReader reader) {
             return new Actor(
                 (int)reader["ActorId"],
                 reader["FirstName"].ToString(),
@@ -36,28 +35,24 @@ namespace DAL.Service
             return Connection.ExecuteReader<Actor>(cmd, Converter).FirstOrDefault();
         }
 
-        public IEnumerable<Actor> GetByFilm(string title)
-        {
+        public IEnumerable<Actor> GetByFilm(string title) {
             Command cmd = new Command("GetAllActorByFilm", true);
             cmd.AddParameter("Title", title);
             return Connection.ExecuteReader<Actor>(cmd, Converter);
         }
 
-        public IEnumerable<Actor> GetByInitial(char first, char last)
-        {
+        public IEnumerable<Actor> GetByInitial(char last) {
             Command cmd = new Command("GetActorByInitial", true);
-            cmd.AddParameter("FirstL", first);
             cmd.AddParameter("LastL", last);
             return Connection.ExecuteReader<Actor>(cmd, Converter);
         }
 
         #region À CORRIGER
         // À Corriger / ! \ ERROR
-        public IEnumerable<Actor> GetAllInitials()
-        {
+        public IEnumerable<Actor> GetAllInitials() {
             Command cmd = new Command("GetAllActorInitial", true);
             return Connection.ExecuteReader<Actor>(cmd, Converter);
-
+            
         }
         #endregion
 

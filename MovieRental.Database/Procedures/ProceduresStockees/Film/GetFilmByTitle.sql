@@ -1,6 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[GetFilmByTitle]
-
-@title varchar
+	@Title varchar
 AS
-	SELECT * FROM Film WHERE Title = @title
+	SELECT * FROM Film WHERE Title = @Title;
 RETURN 0

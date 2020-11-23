@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\voxun\\Source\\Labo dotnet\\DotNetLabo\\DAL\\DAL.csproj": {}
+    "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\DAL\\DAL.csproj": {}
   },
   "projects": {
     "D:\\Users\\voxun\\Source\\ADOLIBRAIRY SAFE\\ADOLibrary\\ADOLibrary.csproj": {
@@ -68,14 +68,14 @@
         }
       }
     },
-    "D:\\Users\\voxun\\Source\\Labo dotnet\\DotNetLabo\\DAL\\DAL.csproj": {
+    "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\voxun\\Source\\Labo dotnet\\DotNetLabo\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DotNetLabo\\DAL\\DAL.csproj",
+        "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\voxun\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DotNetLabo\\DAL\\obj\\",
+        "outputPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

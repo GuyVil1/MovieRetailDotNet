@@ -1,7 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[GetFilmByLanguage]
-
-	@language
-
+	@Language varchar
 AS
-	SELECT @param1, @param2
+	SELECT * FROM Film f, [Language] l WHERE f.LanguageId = l.LanguageId
+	AND l.[Name] = @Language;
 RETURN 0

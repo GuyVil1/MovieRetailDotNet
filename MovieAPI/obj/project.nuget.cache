@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yk7zuDzmX0VLl7zCZJ8gUQCXv2/YiVaID0QYYfUN6N6oMSvAg3cr/kArI5jgFTs9lgDYqiowxl2+OyEYQhR7+w==",
+  "dgSpecHash": "GwBCeBz5pOhUvF6Nm0QrFzEl2t+vx/xstKh29cw5YxCH2OvvkCWvqwxuAUT/89ia9utoiZnLGA2HQhZTjv/mLQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DotNetLabo\\MovieAPI\\MovieAPI.csproj",
+  "projectFilePath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\MovieAPI\\MovieAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\voxun\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\voxun\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",

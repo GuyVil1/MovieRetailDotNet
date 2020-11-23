@@ -13,7 +13,7 @@ namespace DAL.Model
         public int LanguageId { get; set; }
         public int RentalDuration { get; set; }
         public decimal RentalPrice { get; set; }
-        public int Lenght { get; set; }
+        public int Length { get; set; }
         public decimal ReplacementCost { get; set; }
         public int RatingId { get; set; }
 
@@ -22,7 +22,7 @@ namespace DAL.Model
         {
         }
 
-        public Film(string title, string description, int releaseYear, int languageId, int rentalDuration, decimal rentalPrice, int lenght, decimal replacementCost, int ratingId)
+        public Film(string title, string description, int releaseYear, int languageId, int rentalDuration, decimal rentalPrice, int length, decimal replacementCost, int ratingId)
         {
             Title = title;
             Description = description;
@@ -30,12 +30,12 @@ namespace DAL.Model
             LanguageId = languageId;
             RentalDuration = rentalDuration;
             RentalPrice = rentalPrice;
-            Lenght = lenght;
+            Length = length;
             ReplacementCost = replacementCost;
             RatingId = ratingId;
         }
 
-        public Film(int id, string title, string description, int releaseYear, int languageId, int rentalDuration, decimal rentalPrice, int lenght, decimal replacementCost, int ratingId)
+        public Film(int id, string title, string description, int releaseYear, int languageId, int rentalDuration, decimal rentalPrice, int lenght, decimal replacementCost, int ratingId) 
             : this(title, description, releaseYear, languageId, rentalDuration, rentalPrice, lenght, replacementCost, ratingId)
         {
             Id = id;

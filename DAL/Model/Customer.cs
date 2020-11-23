@@ -10,7 +10,7 @@ namespace DAL.Model
         public string LastName { get; set; }
         public string FirstName { get; set; }
         public string Email { get; set; }
-        public string Passwd { private get; set; }
+        public string Passwd {private get; set; }
 
         // pour Postman
         public Customer()

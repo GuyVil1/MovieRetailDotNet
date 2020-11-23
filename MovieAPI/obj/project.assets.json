@@ -1071,11 +1071,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\voxun\\Source\\Labo dotnet\\DotNetLabo\\MovieAPI\\MovieAPI.csproj",
+      "projectUniqueName": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\MovieAPI\\MovieAPI.csproj",
       "projectName": "MovieAPI",
-      "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DotNetLabo\\MovieAPI\\MovieAPI.csproj",
+      "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\MovieAPI\\MovieAPI.csproj",
       "packagesPath": "C:\\Users\\voxun\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DotNetLabo\\MovieAPI\\obj\\",
+      "outputPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\MovieAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -1096,8 +1096,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Users\\voxun\\Source\\Labo dotnet\\DotNetLabo\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DotNetLabo\\DAL\\DAL.csproj"
+            "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\DAL\\DAL.csproj"
             }
           }
         }

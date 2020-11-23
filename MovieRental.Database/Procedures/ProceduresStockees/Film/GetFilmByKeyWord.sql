@@ -1,6 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[GetFilmByKeyWord]
-	@keyword varchar
-
+	@KeyWord varchar
 AS
-	SELECT * FROM Film WHERE Title like '%@Keyword%'
+	SELECT * FROM Film  WHERE [Description] like '%' + @KeyWord + '%'
 RETURN 0
