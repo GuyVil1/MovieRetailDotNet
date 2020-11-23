@@ -9,14 +9,7 @@ namespace DAL.Models
 
         public int Id { get; set; }
 
-        public string LastName { get; set; }
-        public string FirstName { get; set; }
-
-
-        public string Email { get; set; }
-
-        public string Passwd { get; set; }
-
+        public string Name { get; set; }
 
 
         public Actor()
@@ -24,18 +17,14 @@ namespace DAL.Models
 
         }
 
-        public Actor(string lastName, string firstName, string email, string passwd)
+        public Actor(string name)
         {
-            LastName = lastName;
-            FirstName = firstName;
-            Email = email;
-            Passwd = passwd;
+            Name = name;
         }
 
-        public Actor(int id, string lastName, string firstName, string email, string passwd) : this(lastName, firstName, email, passwd)
+        public Actor(int id, string name) : this(name)
         {
             Id = id;
-
         }
 
     }

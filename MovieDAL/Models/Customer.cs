@@ -12,8 +12,6 @@ namespace DAL.Models
             FirstName = firstName;
             Email = email;
             Passwd = passwd;
-
-
         }
 
         public Customer(int id, string lastName, string firstName, string email, string passwd) : this(lastName, firstName, email, passwd)
