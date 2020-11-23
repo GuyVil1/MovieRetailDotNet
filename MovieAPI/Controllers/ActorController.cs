@@ -29,8 +29,8 @@ namespace MovieAPI.Controllers
         }
         [HttpGet]
         [Route("initial")]
-        public IActionResult getActorByInitial(string initial) {
-            return Ok(_service.GetByInitial(initial[0], initial[1]));
+        public IActionResult getActorByInitial(char initial) {
+            return Ok(_service.GetByInitial(initial));
         }
         [HttpGet]
         [Route("AllInitials")]

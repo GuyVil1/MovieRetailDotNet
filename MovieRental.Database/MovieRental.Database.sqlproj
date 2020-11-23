@@ -63,6 +63,8 @@
     <Folder Include="Views" />
     <Folder Include="Procedures\ProceduresStockees" />
     <Folder Include="Procedures\ProceduresStockees\Actor" />
+    <Folder Include="Procedures\ProceduresStockees\Category" />
+    <Folder Include="Procedures\ProceduresStockees\Film" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Film.sql" />
@@ -85,6 +87,15 @@
     <Build Include="Procedures\ProceduresStockees\Actor\GetAllActorByFilm.sql" />
     <Build Include="Procedures\ProceduresStockees\Actor\GetAllActorInitial.sql" />
     <Build Include="Procedures\ProceduresStockees\Actor\GetByIdActor.sql" />
+    <Build Include="Procedures\ProceduresStockees\Category\GetAllCategory.sql" />
+    <Build Include="Procedures\ProceduresStockees\Category\GetCategoryById.sql" />
+    <Build Include="Procedures\ProceduresStockees\Film\GetAllFilm.sql" />
+    <Build Include="Procedures\ProceduresStockees\Film\GetFilmByActor.sql" />
+    <Build Include="Procedures\ProceduresStockees\Film\GetFilmByCategory.sql" />
+    <Build Include="Procedures\ProceduresStockees\Film\GetFilmById.sql" />
+    <Build Include="Procedures\ProceduresStockees\Film\GetFilmByKeyWord.sql" />
+    <Build Include="Procedures\ProceduresStockees\Film\GetFilmByLanguage.sql" />
+    <Build Include="Procedures\ProceduresStockees\Film\GetFilmByTitle.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MovieRental.Database.publish.xml" />

@@ -17,34 +17,38 @@ namespace MovieAPI.Controllers
         public FilmController()
         {
             _service = new FilmService();
-
         }
 
         [HttpGet]
-        public IActionResult GetAll()
-        {
+        public IActionResult GetAll() {
             return Ok(_service.GetAll());
         }
 
         [HttpGet]
         [Route("Actor")]
-        public IActionResult GetByActor(string actor)
-        {
-            return Ok(_service.GetByActor(actor));
+        public IActionResult GetByActor(int id) {
+            return Ok(_service.GetByActor(id));
         }
 
         [HttpGet]
         [Route("Category")]
-        public IActionResult GetBycategory(string category)
+        public IActionResult GetByCategory(int id)
         {
-            return Ok(_service.GetByActor(category));
+            return Ok(_service.GetByCategory(id));
+        }
+
+        [HttpGet]
+        [Route("Title")]
+        public IActionResult GetByTitle(string title)
+        {
+            return Ok(_service.GetByTitle(title));
         }
 
         [HttpGet]
         [Route("Language")]
-        public IActionResult GetByLanguage(string language)
+        public IActionResult GetByLanguage(int id)
         {
-            return Ok(_service.GetByLanguage(language));
+            return Ok(_service.GetByLanguage(id));
         }
 
         [HttpGet]
@@ -53,6 +57,5 @@ namespace MovieAPI.Controllers
         {
             return Ok(_service.GetByKeyWord(keyword));
         }
-
     }
 }

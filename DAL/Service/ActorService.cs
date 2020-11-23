@@ -30,7 +30,7 @@ namespace DAL.Service
 
         public override Actor GetById(int id)
         {
-            Command cmd = new Command("GetByIdActor", true);
+            Command cmd = new Command("GetActorById", true);
             cmd.AddParameter("Id", id);
             return Connection.ExecuteReader<Actor>(cmd, Converter).FirstOrDefault();
         }

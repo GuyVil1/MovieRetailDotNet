@@ -1,8 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[GetFilmByCategory]
-	@Name varchar
+	@CategoryId int
 AS
-	SELECT * FROM Film f, Category c, FilmCategory fc 
-	WHERE f.FilmId = fc.FilmId
-	AND c.CategoryId = fc.CategoryId
-	AND c.Name = @Name;
+	SELECT * FROM Film f
+	JOIN FilmCategory fc ON f.FilmId = fc.FilmId
+	WHERE fc.CategoryId = @CategoryId;
 RETURN 0

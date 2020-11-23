@@ -3,6 +3,7 @@ using DAL.Model;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Linq;
 using System.Text;
 
 namespace DAL.Service
@@ -25,23 +26,23 @@ namespace DAL.Service
                 );
         }
 
-        public IEnumerable<Film> GetByActor(string lastName) {
+        public IEnumerable<Film> GetByActor(int id) {
             Command cmd = new Command("GetFilmByActor", true);
-            cmd.AddParameter("LastName", lastName);
+            cmd.AddParameter("ActorId", id);
             return Connection.ExecuteReader<Film>(cmd, Converter);
         }
 
-        public IEnumerable<Film> GetByCategory(string name)
+        public IEnumerable<Film> GetByCategory(int id)
         {
             Command cmd = new Command("GetFilmByCategory", true);
-            cmd.AddParameter("Name", name);
+            cmd.AddParameter("CategoryId", id);
             return Connection.ExecuteReader<Film>(cmd, Converter);
         }
 
-        public IEnumerable<Film> GetByLanguage(string language)
+        public IEnumerable<Film> GetByLanguage(int id)
         {
             Command cmd = new Command("GetFilmByLanguage", true);
-            cmd.AddParameter("Language", language);
+            cmd.AddParameter("LanguageId", id);
             return Connection.ExecuteReader<Film>(cmd, Converter);
         }
 
@@ -72,7 +73,10 @@ namespace DAL.Service
 
         public override Film GetById(int id)
         {
-            throw new NotImplementedException();
+            Command cmd = new Command("GetFilmById", true);
+            cmd.AddParameter("Id", id);
+            return Connection.ExecuteReader<Film>(cmd, Converter).FirstOrDefault();
+
         }
 
         public override int Insert(Film entity)

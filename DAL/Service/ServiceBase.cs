@@ -19,7 +19,7 @@ namespace DAL.Service
 
         public ServiceBase()
         {
-            Connection = new Connection(@"Data Source=DESKTOP-AUP78JP;Initial Catalog=MovieRental;Integrated Security=True");
+            Connection = new Connection(@"Data Source=DESKTOP-E4AAE6V;Integrated Security=True;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         }
     }
 }

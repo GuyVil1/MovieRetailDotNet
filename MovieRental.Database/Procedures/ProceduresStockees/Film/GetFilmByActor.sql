@@ -1,8 +1,8 @@
 ﻿CREATE PROCEDURE [dbo].[GetFilmByActor]
-	@LastName varchar
+	@ActorId int
 AS
 	SELECT * FROM Film f, Actor a, FilmActor fa
 	where a.ActorId = fa.ActorId
 	AND f.FilmId = fa.FilmId
-	AND a.LastName = @LastName;
+	AND a.ActorId = @ActorId;
 RETURN 0

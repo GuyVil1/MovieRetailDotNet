@@ -4,3 +4,9 @@ D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieRental.Database\bin\Debug\Movi
 D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieRental.Database\obj\Debug\MovieRental.Database.sqlprojAssemblyReference.cache
 D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieRental.Database\obj\Debug\MovieRental.dll
 D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieRental.Database\obj\Debug\MovieRental.pdb
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\bin\Debug\MovieRental.Database.dacpac
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\bin\Debug\MovieRental.dll
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\bin\Debug\MovieRental.pdb
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\obj\Debug\MovieRental.Database.sqlprojAssemblyReference.cache
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\obj\Debug\MovieRental.dll
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\obj\Debug\MovieRental.pdb
