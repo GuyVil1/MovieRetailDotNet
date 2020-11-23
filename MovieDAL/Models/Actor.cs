@@ -10,6 +10,7 @@ namespace DAL.Models
         public int Id { get; set; }
 
         public string Name { get; set; }
+        public string LastName { get; set; }
 
 
         public Actor()
@@ -17,12 +18,13 @@ namespace DAL.Models
 
         }
 
-        public Actor(string name)
+        public Actor(string name, string lastName)
         {
             Name = name;
+            LastName = lastName;
         }
 
-        public Actor(int id, string name) : this(name)
+        public Actor(int id, string name, string lastName) : this(name, lastName)
         {
             Id = id;
         }

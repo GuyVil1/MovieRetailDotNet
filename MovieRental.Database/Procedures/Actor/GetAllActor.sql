@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[GetAllActor]
-	@param1 int = 0,
-	@param2 int
+	@Id int
+
 AS
-	SELECT @param1, @param2
+	SELECT * FROM Actor
 RETURN 0

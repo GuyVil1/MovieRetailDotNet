@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[GetByIdActor]
+﻿CREATE PROCEDURE [dbo].[GetActorById]
 	@Id int
 
 AS
