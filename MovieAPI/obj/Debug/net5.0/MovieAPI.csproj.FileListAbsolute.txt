@@ -45,3 +45,4 @@ D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieAPI\obj\Debug\net5.0\MovieAPI.
 D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieAPI\obj\Debug\net5.0\ref\MovieAPI.dll
 D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieAPI\obj\Debug\net5.0\MovieAPI.pdb
 D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieAPI\obj\Debug\net5.0\MovieAPI.genruntimeconfig.cache
+D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieAPI\obj\Debug\net5.0\MovieAPI.MvcApplicationPartsAssemblyInfo.cs

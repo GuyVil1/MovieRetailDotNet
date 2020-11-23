@@ -16,7 +16,7 @@ namespace DAL.Service
         {
             return new Film(
         (int)reader["Id"],
-                reader["Titre"].ToString(),
+                reader["Title"].ToString(),
                 reader["Description"].ToString(),
                 (int)reader["ReleaseYear"],
                 (int)reader["LanguageId"],
@@ -24,7 +24,7 @@ namespace DAL.Service
                 (decimal)reader["RentalPrice"],
                 (int)reader["Length"],
                 (decimal)reader["ReplacementCost"],
-                (int)reader["RatingId"]
+                (int)reader["RatingId"]);
         }
 
         public override IEnumerable<Film> GetAll()
