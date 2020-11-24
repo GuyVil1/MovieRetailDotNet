@@ -10,22 +10,25 @@ namespace DAL.Model
         public string LastName { get; set; }
         public string FirstName { get; set; }
         public string Email { get; set; }
-        public string Passwd {private get; set; }
+        public string Passwd { get; set; }
+
+        public string Token { get; set; }
 
         // pour Postman
         public Customer()
         {
         }
 
-        public Customer(string lastName, string firstName, string email, string passwd)
+        public Customer(string lastName, string firstName, string email, string passwd, string token)
         {
             LastName = lastName;
             FirstName = firstName;
             Email = email;
             Passwd = passwd;
+            Token = token;
         }
 
-        public Customer(int id, string lastName, string firstName, string email, string passwd) : this(lastName, firstName, email, passwd)
+        public Customer(int id, string lastName, string firstName, string email, string passwd, string token) : this(lastName, firstName, email, passwd, token)
         {
             Id = id;
         }

@@ -46,9 +46,9 @@ D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieAPI\obj\Debug\net5.0\ref\Movie
 D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieAPI\obj\Debug\net5.0\MovieAPI.pdb
 D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieAPI\obj\Debug\net5.0\MovieAPI.genruntimeconfig.cache
 D:\Users\voxun\Source\Labo dotnet\DotNetLabo\MovieAPI\obj\Debug\net5.0\MovieAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieAPI\bin\Debug\net5.0\DAL.exe
 D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieAPI\bin\Debug\net5.0\appsettings.Development.json
 D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieAPI\bin\Debug\net5.0\appsettings.json
-D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieAPI\bin\Debug\net5.0\DAL.exe
 D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieAPI\bin\Debug\net5.0\MovieAPI.exe
 D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieAPI\bin\Debug\net5.0\MovieAPI.deps.json
 D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieAPI\bin\Debug\net5.0\MovieAPI.runtimeconfig.json

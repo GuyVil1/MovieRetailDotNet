@@ -5,8 +5,8 @@
     <TargetDatabaseName>MovieRental</TargetDatabaseName>
     <DeployScriptFileName>MovieRental.Database.sql</DeployScriptFileName>
     <TargetConnectionString>Data Source=DESKTOP-E4AAE6V;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</TargetConnectionString>
-    <ProfileVersionNumber>1</ProfileVersionNumber>
     <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
     <CreateNewDatabase>True</CreateNewDatabase>
+    <ProfileVersionNumber>1</ProfileVersionNumber>
   </PropertyGroup>
 </Project>

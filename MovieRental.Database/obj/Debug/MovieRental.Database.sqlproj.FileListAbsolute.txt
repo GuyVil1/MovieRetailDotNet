@@ -10,3 +10,7 @@ D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\bin\Deb
 D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\obj\Debug\MovieRental.Database.sqlprojAssemblyReference.cache
 D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\obj\Debug\MovieRental.dll
 D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\obj\Debug\MovieRental.pdb
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\obj\Debug\Model.xml
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\obj\Debug\refactor.xml
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\obj\Debug\postdeploy.sql
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\MovieRental.Database\obj\Debug\predeploy.sql
