@@ -4,3 +4,9 @@ C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieRental.Database\bin\Debug\Mo
 C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieRental.Database\obj\Debug\MovieRental.Database.sqlprojAssemblyReference.cache
 C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieRental.Database\obj\Debug\MovieRental.dll
 C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieRental.Database\obj\Debug\MovieRental.pdb
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieRental.Database\bin\Debug\MovieRental.Database.dacpac
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieRental.Database\bin\Debug\MovieRental.dll
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieRental.Database\bin\Debug\MovieRental.pdb
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieRental.Database\obj\Debug\MovieRental.Database.sqlprojAssemblyReference.cache
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieRental.Database\obj\Debug\MovieRental.dll
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieRental.Database\obj\Debug\MovieRental.pdb

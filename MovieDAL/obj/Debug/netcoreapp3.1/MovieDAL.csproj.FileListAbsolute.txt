@@ -10,3 +10,15 @@ C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\bin\Debug\netcoreapp3.1\
 C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.csproj.CopyComplete
 C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.dll
 C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.pdb
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieDAL\bin\Debug\netcoreapp3.1\MovieDAL.deps.json
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieDAL\bin\Debug\netcoreapp3.1\MovieDAL.dll
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieDAL\bin\Debug\netcoreapp3.1\MovieDAL.pdb
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieDAL\bin\Debug\netcoreapp3.1\ADOLibrairy.dll
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieDAL\bin\Debug\netcoreapp3.1\ADOLibrairy.pdb
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.csprojAssemblyReference.cache
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.AssemblyInfoInputs.cache
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.AssemblyInfo.cs
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.csproj.CoreCompileInputs.cache
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.csproj.CopyComplete
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.dll
+D:\Users\voxun\Source\Labo dotnet\DemoMovie\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.pdb
