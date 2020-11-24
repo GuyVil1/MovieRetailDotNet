@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using MovieDAL.Models;
 using MovieDAL.Services;
+using MovielRental.Infrastructure.Security;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace MovielRental.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AuthRequired]
     public class CustomerController : ControllerBase
     {
         private CustomerService _service;
