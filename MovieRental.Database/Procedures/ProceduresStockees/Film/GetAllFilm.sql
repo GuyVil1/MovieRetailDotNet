@@ -1,4 +1,0 @@
-﻿CREATE PROCEDURE [dbo].[GetAllFilm]
-AS
-	SELECT * FROM Film;
-RETURN 0

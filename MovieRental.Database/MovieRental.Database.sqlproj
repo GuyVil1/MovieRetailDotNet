@@ -59,12 +59,12 @@
     <Folder Include="Tables" />
     <Folder Include="Scripts" />
     <Folder Include="Functions" />
-    <Folder Include="Procedures" />
     <Folder Include="Views" />
-    <Folder Include="Procedures\ProceduresStockees" />
-    <Folder Include="Procedures\ProceduresStockees\Actor" />
-    <Folder Include="Procedures\ProceduresStockees\Category" />
-    <Folder Include="Procedures\ProceduresStockees\Film" />
+    <Folder Include="ProcedureStockee" />
+    <Folder Include="ProcedureStockee\Actor" />
+    <Folder Include="ProcedureStockee\Film" />
+    <Folder Include="ProcedureStockee\Category" />
+    <Folder Include="ProcedureStockee\Auth" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Film.sql" />
@@ -79,23 +79,27 @@
     <Build Include="Tables\RentalDetail.sql" />
     <Build Include="Functions\MVSF_GetPostHash.sql" />
     <Build Include="Functions\MVSF_GetPreHash.sql" />
-    <Build Include="Procedures\MVSP_CheckCustomer.sql" />
-    <Build Include="Procedures\MVSP_RegisterCustomer.sql" />
     <Build Include="Views\V_Film.sql" />
-    <Build Include="Procedures\ProceduresStockees\Actor\GetActorByInitial.sql" />
-    <Build Include="Procedures\ProceduresStockees\Actor\GetActor.sql" />
-    <Build Include="Procedures\ProceduresStockees\Actor\GetAllActorByFilm.sql" />
-    <Build Include="Procedures\ProceduresStockees\Actor\GetAllActorInitial.sql" />
-    <Build Include="Procedures\ProceduresStockees\Actor\GetByIdActor.sql" />
-    <Build Include="Procedures\ProceduresStockees\Category\GetAllCategory.sql" />
-    <Build Include="Procedures\ProceduresStockees\Category\GetCategoryById.sql" />
-    <Build Include="Procedures\ProceduresStockees\Film\GetAllFilm.sql" />
-    <Build Include="Procedures\ProceduresStockees\Film\GetFilmByActor.sql" />
-    <Build Include="Procedures\ProceduresStockees\Film\GetFilmByCategory.sql" />
-    <Build Include="Procedures\ProceduresStockees\Film\GetFilmById.sql" />
-    <Build Include="Procedures\ProceduresStockees\Film\GetFilmByKeyWord.sql" />
-    <Build Include="Procedures\ProceduresStockees\Film\GetFilmByLanguage.sql" />
-    <Build Include="Procedures\ProceduresStockees\Film\GetFilmByTitle.sql" />
+    <Build Include="ProcedureStockee\Actor\GetActorByFilm.sql" />
+    <Build Include="ProcedureStockee\Actor\GetActorByInitiale.sql" />
+    <Build Include="ProcedureStockee\Actor\GetActorInitial.sql" />
+    <Build Include="ProcedureStockee\Actor\GetAllActor.sql" />
+    <Build Include="ProcedureStockee\Actor\GetByIdActor.sql" />
+    <Build Include="ProcedureStockee\Film\FilmByTitle.sql" />
+    <Build Include="ProcedureStockee\Film\GetAllFilm.sql" />
+    <Build Include="ProcedureStockee\Film\GetFilmByActor.sql" />
+    <Build Include="ProcedureStockee\Film\GetFilmByCategory.sql" />
+    <Build Include="ProcedureStockee\Film\GetFilmById.sql" />
+    <Build Include="ProcedureStockee\Film\GetFilmByKeyWord.sql" />
+    <Build Include="ProcedureStockee\Film\GetFilmByLanguage.sql" />
+    <Build Include="ProcedureStockee\Actor\GetAllActorInitial.sql" />
+    <Build Include="ProcedureStockee\Category\GetAllCategory.sql" />
+    <Build Include="ProcedureStockee\Category\GetCategoryById.sql" />
+    <Build Include="ProcedureStockee\Film\GetFilmByIdCategory.sql" />
+    <Build Include="ProcedureStockee\Film\GetFilmByIdLanguage.sql" />
+    <Build Include="ProcedureStockee\Film\GetFilmByIdActor.sql" />
+    <Build Include="ProcedureStockee\Auth\MVSP_RegisterCustomer.sql" />
+    <Build Include="ProcedureStockee\Auth\MVSP_CheckCustomer.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MovieRental.Database.publish.xml" />
