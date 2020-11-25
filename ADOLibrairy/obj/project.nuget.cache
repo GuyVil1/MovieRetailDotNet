@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d0TojkCVdTqpHu5yrca8owscgzNv0qP9GIvsKs3qe6Fmk5t1UuwH6fwbV/eHhiTt4z+xWzA5TKmvUzZmL3AP9g==",
+  "dgSpecHash": "5hbVVjb2Z/7n1nLMmhzvHgZEDlDvFFdYmOHxSKinb2FVbb2p/YlmU6e2Psa2OEZp0q+mDS+owgTmUtEw5XEkfw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\ADOLibrairy\\ADOLibrairy.csproj",
+  "projectFilePath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\ADOLibrairy\\ADOLibrairy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\voxun\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\voxun\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -16,3 +16,12 @@ D:\Users\voxun\Source\Labo dotnet\DemoMovie\ADOLibrairy\obj\Debug\netcoreapp3.1\
 D:\Users\voxun\Source\Labo dotnet\DemoMovie\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.csproj.CoreCompileInputs.cache
 D:\Users\voxun\Source\Labo dotnet\DemoMovie\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.dll
 D:\Users\voxun\Source\Labo dotnet\DemoMovie\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.pdb
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\ADOLibrairy\bin\Debug\netcoreapp3.1\ADOLibrairy.deps.json
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\ADOLibrairy\bin\Debug\netcoreapp3.1\ADOLibrairy.dll
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\ADOLibrairy\bin\Debug\netcoreapp3.1\ADOLibrairy.pdb
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.csprojAssemblyReference.cache
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.AssemblyInfoInputs.cache
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.AssemblyInfo.cs
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.csproj.CoreCompileInputs.cache
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.dll
+D:\Users\voxun\Source\Labo dotnet\MovieRetailDotNet\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.pdb

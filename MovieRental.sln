@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MovieRental.Database", "MovieRental.Database\MovieRental.Database.sqlproj", "{BBF8372C-47C0-469E-9ADB-4D2B95CC9C8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOLibrairy", "ADOLibrairy\ADOLibrairy.csproj", "{6AC310D0-8CE7-4F6B-B991-6C0E942C168A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADOLibrairy", "ADOLibrairy\ADOLibrairy.csproj", "{6AC310D0-8CE7-4F6B-B991-6C0E942C168A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovielRental", "MovielRental\MovielRental.csproj", "{31ACD5D2-3514-48E7-BF6F-90A2B3751072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovielRental", "MovielRental\MovielRental.csproj", "{31ACD5D2-3514-48E7-BF6F-90A2B3751072}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDAL", "MovieDAL\MovieDAL.csproj", "{FA8E53F9-4F36-4621-9001-56D12A4CA2D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieDAL", "MovieDAL\MovieDAL.csproj", "{FA8E53F9-4F36-4621-9001-56D12A4CA2D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,20 @@
+﻿** Met en surbrillance
+     Tables à reconstruire
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Supprimer
+       [dbo].[FilmIds] (Type de table défini par l'utilisateur)
+     Créer
+       [dbo].[FilmIds] (Type de table défini par l'utilisateur)
+       [dbo].[MRSP_CreateRental] (Procédure)
+       [dbo].[MVSP_CheckCustomer] (Procédure)
+       [dbo].[MVSP_RegisterCustomer] (Procédure)
+
+** Actions de support

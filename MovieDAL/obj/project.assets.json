@@ -478,11 +478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\MovieDAL\\MovieDAL.csproj",
+      "projectUniqueName": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\MovieDAL\\MovieDAL.csproj",
       "projectName": "MovieDAL",
-      "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\MovieDAL\\MovieDAL.csproj",
+      "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\MovieDAL\\MovieDAL.csproj",
       "packagesPath": "C:\\Users\\voxun\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\MovieDAL\\obj\\",
+      "outputPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\MovieDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -503,8 +503,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\ADOLibrairy\\ADOLibrairy.csproj": {
-              "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\ADOLibrairy\\ADOLibrairy.csproj"
+            "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\ADOLibrairy\\ADOLibrairy.csproj": {
+              "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\ADOLibrairy\\ADOLibrairy.csproj"
             }
           }
         }

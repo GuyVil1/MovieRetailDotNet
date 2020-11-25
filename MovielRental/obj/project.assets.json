@@ -1171,11 +1171,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\MovielRental\\MovielRental.csproj",
+      "projectUniqueName": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\MovielRental\\MovielRental.csproj",
       "projectName": "MovielRental",
-      "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\MovielRental\\MovielRental.csproj",
+      "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\MovielRental\\MovielRental.csproj",
       "packagesPath": "C:\\Users\\voxun\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\MovielRental\\obj\\",
+      "outputPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\MovielRental\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -1196,8 +1196,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\MovieDAL\\MovieDAL.csproj": {
-              "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\MovieDAL\\MovieDAL.csproj"
+            "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\MovieDAL\\MovieDAL.csproj": {
+              "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\MovieDAL\\MovieDAL.csproj"
             }
           }
         }

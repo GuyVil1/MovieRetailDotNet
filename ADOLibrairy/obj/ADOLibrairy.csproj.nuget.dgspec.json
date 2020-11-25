@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\ADOLibrairy\\ADOLibrairy.csproj": {}
+    "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\ADOLibrairy\\ADOLibrairy.csproj": {}
   },
   "projects": {
-    "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\ADOLibrairy\\ADOLibrairy.csproj": {
+    "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\ADOLibrairy\\ADOLibrairy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\ADOLibrairy\\ADOLibrairy.csproj",
+        "projectUniqueName": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\ADOLibrairy\\ADOLibrairy.csproj",
         "projectName": "ADOLibrairy",
-        "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\ADOLibrairy\\ADOLibrairy.csproj",
+        "projectPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\ADOLibrairy\\ADOLibrairy.csproj",
         "packagesPath": "C:\\Users\\voxun\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\DemoMovie\\ADOLibrairy\\obj\\",
+        "outputPath": "D:\\Users\\voxun\\Source\\Labo dotnet\\MovieRetailDotNet\\ADOLibrairy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
