@@ -3,7 +3,7 @@
     @FilmIds FilmIds READONLY
 AS
     INSERT INTO [Rental] ([CustomerId])
-    VALUES (@Customerid);
+    VALUES (@CustomerId);
 
     DECLARE @RentalId INT = SCOPE_IDENTITY();
 

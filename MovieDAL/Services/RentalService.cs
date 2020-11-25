@@ -2,6 +2,7 @@
 using MovieDAL.Models;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Text;
 
 namespace MovieDAL.Services
@@ -28,11 +29,22 @@ namespace MovieDAL.Services
 
         public override int Insert(Rental entity)
         {
+            throw new NotImplementedException();
+        }
+
+        public int Insertion(Rental entity, int[] films)
+        {
+            DataTable filma = new DataTable();
+            filma.Columns.Add(new DataColumn("Id", typeof(int)));
+
+            foreach (int t in films)
+            {
+                filma.Rows.Add(t);
+            }
             Command cmd = new Command("MRSP_CreateRental", true);
             cmd.AddParameter("CustomerId", entity.CustomerId);
-            cmd.AddParameter("FilmId", film.Id);
-            return 
-            
+            cmd.AddParameter("FilmIds", filma);
+            return connection.ExecuteNonQuery(cmd);
         }
 
         public override bool Update(Rental entity)
